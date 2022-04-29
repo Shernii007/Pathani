@@ -10,7 +10,7 @@ import requests
  
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from Pathani import khani
+    from Pathani import qsbuy
     khani()
 elif bit == '32bit':
     print('YOUR PHONE IS NOT SUPPORTED BRO')
